@@ -1,0 +1,61 @@
+{% extends 'base.html'%}
+{% block title %}Home{% endblock title %}
+{% block body%}
+<div class="container-fluid px-0">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="\static\1.jpeg" class="d-block w-100 h-20" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>INTEGRATE TODAY. TOMORROW, THE WORLD.</h5>
+              <p>Our unique 'less is more' approach to global hub fulfilment provides unlimited access to new international markets, with just one integration.</p>     </div>
+            </div>
+          <div class="carousel-item">
+            <img src="\static\2.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>DELIVERING OUTCOMES THAT MAKE A DIFFERENCE</h5>
+              <p>Offering greater global reach than any other logistics provider, we empower ecommerce, wholesale and retail businesses to distribute their goods on a worldwide scale - becoming the partner of choice for so many iconic brands. Discover what we we can do for your business.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="\static\3.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>TRUSTED BY SOME OF THE WORLD'S LEADING CONSUMER BRANDS</h5>
+              <p>From health and beauty, to sports and fitness, we are experienced across a spectrum of industries - equipped with the insight and expertise to navigate our clients' every demand. </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="d-flex position-relative">
+            <img src="\static\6.jpg" class="flex-shrink-0 me-3" alt="...">
+            <div>
+              <h5 class="mt-0">MARKET UPDATE - GLOBAL SHIPPING IMPACT: WAR IN UKRAINE</h5>
+              <p>The approval enables Air-City and PS Logistics to offer 
+                marketplaces, merchants and direct-to-consumer brands fully-
+                trackable, 20-22 day, door-to-door deliveries across the U.K. 
+                for the inbound ocean shipments from China, Asia and Australasia 
+                that qualify under the increased £800 de minimus threshold and 
+                conditions. This enables the shipment of articles imported by 
+                one person, on one day having an aggregate fair retail value in
+                the country of shipment of not more than £800 to be exempted 
+                from duty and tax.  </p>
+             <button type="button" class="btn btn-info">Tracking</button>
+            </div>
+            </div>
+          </div>
+    </div>
+{% endblock body%}
+
+  
